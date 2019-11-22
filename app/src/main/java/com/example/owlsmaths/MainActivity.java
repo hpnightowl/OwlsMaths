@@ -284,4 +284,4 @@ import android.widget.TextView;
             resultadoText.setText("");
         }
     }
-    
+
