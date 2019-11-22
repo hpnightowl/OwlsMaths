@@ -20,7 +20,7 @@ import android.widget.TextView;
         private Button eight;
         private Button nine;
         private Button sum;
-        private Button rest;
+        private Button sub;
         private Button mult;
         private Button div;
         private Button dec;
@@ -145,7 +145,7 @@ import android.widget.TextView;
                 }
             });
 
-            rest.setOnClickListener(new View.OnClickListener() {
+            sub.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     if (accion == 'f') {
@@ -225,8 +225,8 @@ import android.widget.TextView;
             eight = findViewById(R.id.bt8);
             nine = findViewById(R.id.bt9);
             sum = findViewById(R.id.btplus);
-            rest = findViewById(R.id.btClear);
-            mult = findViewById(R.id.btsub);
+            sub = findViewById(R.id.btsub);
+            mult = findViewById(R.id.btmulti);
             div = findViewById(R.id.btdiv);
             dec = findViewById(R.id.btdot);
             result = findViewById(R.id.btequal);
